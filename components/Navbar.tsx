@@ -133,7 +133,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleTheme, language, togg
                 <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-4 w-64 bg-white/90 dark:bg-zinc-900/90 backdrop-blur-xl rounded-2xl shadow-2xl border border-zinc-200 dark:border-zinc-800 overflow-hidden animate-fade-in p-1.5 origin-bottom">
                     <div className="text-[10px] font-bold text-zinc-400 px-3 py-2 uppercase tracking-wider">Select Format</div>
                     <a 
-                      href="./PIYUSH GANGWAR.pdf" 
+                      href="./PIYUSH_GANGWAR.pdf" 
                       download="Piyush_Gangwar_Resume.pdf"
                       onClick={() => setShowResumeMenu(false)}
                       className="flex items-center gap-3 px-3 py-3 hover:bg-zinc-100 dark:hover:bg-zinc-800 rounded-xl transition-all text-zinc-700 dark:text-zinc-300 group"
