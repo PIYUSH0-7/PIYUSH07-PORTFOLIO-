@@ -24,9 +24,8 @@ export default defineConfig(({ mode }) => {
       },
     },
 
-    // ✅ ADD THIS PART
     build: {
-      chunkSizeWarningLimit: 2000, // increase limit (default is 500)
+      chunkSizeWarningLimit: 2000,
     },
-  };
+  }; // ✅ Removed extra closing brace here
 });
