@@ -119,7 +119,7 @@ export const DATA = {
       name: "Piyush Gangwar",
       role: "Full Stack & AI Developer in training",
       about: "B.Tech IT student (6th semester) building skills in MERN, Python-based DSA, cross-platform development, and agentic AI. I follow a strict execution-first learning system with high consistency and long-term vision to build large-scale platforms for real users. Currently working on full-stack clones, automation tools, and academic + productivity apps.",
-      avatar: "./profile.jpg",
+      avatar: "https://drive.google.com/uc?export=view&id=1QMeNa-wXhQYWKsMhwnuhU80rFoBIABjd",
       url: "https://github.com/PIYUSH0-7",
       email: "gangwarpiyush827@gmail.com",
       phone: "+918923845912",
