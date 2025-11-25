@@ -84,7 +84,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleTheme, language, togg
         isVisible ? 'translate-y-0 opacity-100' : 'translate-y-[200%] opacity-0'
       }`}
     >
-      <div className="flex items-center gap-1 px-2 py-2 bg-white/80 dark:bg-zinc-900/80 backdrop-blur-xl border border-zinc-200 dark:border-zinc-800 rounded-full shadow-2xl shadow-zinc-200/50 dark:shadow-black/50">
+      <div className="flex items-center gap-1 px-2 py-2 bg-white/80 dark:bg-zinc-900/80 backdrop-blur-xl border border-zinc-200 dark:border-zinc-800 rounded-full shadow-2xl shadow-zinc-200/50 dark:sha[...]
         <button 
           onClick={() => scrollTo('home')} 
           className="p-2.5 text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 hover:bg-zinc-100 dark:hover:bg-zinc-800 rounded-full transition-all active:scale-95"
@@ -94,7 +94,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleTheme, language, togg
         </button>
         <div className="w-px h-6 bg-zinc-200 dark:bg-zinc-800 mx-1"></div>
         <button 
-          onClick={() => scrollTo('projects')} 
+          onClick={() => { window.location.href = 'https://dev-path-tracker.vercel.app/'; }}
           className="p-2.5 text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 hover:bg-zinc-100 dark:hover:bg-zinc-800 rounded-full transition-all active:scale-95"
           aria-label="Projects"
         >
@@ -123,14 +123,14 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleTheme, language, togg
         <div className="relative" ref={menuRef}>
             <button 
               onClick={() => setShowResumeMenu(!showResumeMenu)}
-              className={`p-2.5 text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 hover:bg-zinc-100 dark:hover:bg-zinc-800 rounded-full transition-all active:scale-95 group relative ${showResumeMenu ? 'bg-zinc-100 dark:bg-zinc-800 text-zinc-900 dark:text-zinc-100' : ''}`}
+              className={`p-2.5 text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 hover:bg-zinc-100 dark:hover:bg-zinc-800 rounded-full transition-all active:scale-95 group[...]
               aria-label="Download Resume"
             >
               <FileDown size={20} strokeWidth={1.5} />
             </button>
             
             {showResumeMenu && (
-                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-4 w-64 bg-white/90 dark:bg-zinc-900/90 backdrop-blur-xl rounded-2xl shadow-2xl border border-zinc-200 dark:border-zinc-800 overflow-hidden animate-fade-in p-1.5 origin-bottom">
+                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-4 w-64 bg-white/90 dark:bg-zinc-900/90 backdrop-blur-xl rounded-2xl shadow-2xl border border-zinc-200 dark:border-zinc[...]
                     <div className="text-[10px] font-bold text-zinc-400 px-3 py-2 uppercase tracking-wider">Select Format</div>
                     <a 
                       href="https://drive.google.com/uc?export=view&id=1GtcnA8jKw2bFS53A-XuAajsbclEG_dKJ" 
@@ -138,7 +138,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleTheme, language, togg
                       onClick={() => setShowResumeMenu(false)}
                       className="flex items-center gap-3 px-3 py-3 hover:bg-zinc-100 dark:hover:bg-zinc-800 rounded-xl transition-all text-zinc-700 dark:text-zinc-300 group"
                     >
-                        <div className="w-10 h-10 rounded-full bg-zinc-100 dark:bg-zinc-800 flex items-center justify-center group-hover:bg-white dark:group-hover:bg-black transition-colors border border-zinc-200 dark:border-zinc-700">
+                        <div className="w-10 h-10 rounded-full bg-zinc-100 dark:bg-zinc-800 flex items-center justify-center group-hover:bg-white dark:group-hover:bg-black transition-colors border bor[...]
                              <FileText size={18} className="text-zinc-500 group-hover:text-zinc-900 dark:group-hover:text-zinc-100 transition-colors" />
                         </div>
                         <div className="flex flex-col">
@@ -150,7 +150,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleTheme, language, togg
                       onClick={handleGenerateResume}
                       className="flex items-center gap-3 w-full text-left px-3 py-3 hover:bg-zinc-100 dark:hover:bg-zinc-800 rounded-xl transition-all text-zinc-700 dark:text-zinc-300 group mt-1"
                     >
-                         <div className="w-10 h-10 rounded-full bg-purple-50 dark:bg-purple-900/20 flex items-center justify-center text-purple-600 dark:text-purple-400 group-hover:bg-purple-100 dark:group-hover:bg-purple-900/40 transition-colors border border-purple-100 dark:border-purple-900/30">
+                         <div className="w-10 h-10 rounded-full bg-purple-50 dark:bg-purple-900/20 flex items-center justify-center text-purple-600 dark:text-purple-400 group-hover:bg-purple-100 dark:[...]
                              <Zap size={18} />
                         </div>
                         <div className="flex flex-col">
@@ -176,7 +176,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleTheme, language, togg
         {/* Language Toggle */}
         <button 
           onClick={toggleLanguage} 
-          className="w-10 h-10 flex items-center justify-center text-xs font-bold text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 hover:bg-zinc-100 dark:hover:bg-zinc-800 rounded-full transition-all uppercase active:scale-95"
+          className="w-10 h-10 flex items-center justify-center text-xs font-bold text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 hover:bg-zinc-100 dark:hover:bg-zinc-800[...]
           aria-label="Toggle Language"
         >
           {language}
