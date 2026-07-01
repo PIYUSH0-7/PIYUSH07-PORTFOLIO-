@@ -1,3 +1,11 @@
+<!-- THOUGHT_START -->
+
+## 💡 Technical Thought of the Day
+
+A portfolio is an interactive story; combine clean visual design with lightning-fast load times to make a memorable impression.
+
+<!-- THOUGHT_END -->
+
 # PIYUSH07 Portfolio
 
 Welcome to the source code for my personal portfolio, crafted with TypeScript and HTML.
