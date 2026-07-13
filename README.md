@@ -4,7 +4,7 @@
 
 Design is not just what it looks like, but how it works; make the navigation intuitive and responsive.
 
-*Daily Insight:* Ensure clear, self-documenting code style with meaningful variable naming.
+*Daily Insight:* Focus on reducing algorithmic complexity and optimizing critical paths.
 
 <!-- THOUGHT_END -->
 
