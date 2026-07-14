@@ -2,9 +2,9 @@
 
 ## 💡 Technical Thought of the Day
 
-Design is not just what it looks like, but how it works; make the navigation intuitive and responsive.
+Focus on showing off real-world user metrics and direct contributions in your portfolio site.
 
-*Daily Insight:* Focus on reducing algorithmic complexity and optimizing critical paths.
+*Daily Insight:* Test thoroughly for edge cases, null values, and boundary conditions.
 
 <!-- THOUGHT_END -->
 
