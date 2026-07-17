@@ -4,7 +4,7 @@
 
 Focus on showing off real-world user metrics and direct contributions in your portfolio site.
 
-*Daily Insight:* Refactor design patterns to improve scalability and maintainability.
+*Daily Insight:* Plan your weekly milestones, track progress velocity, and address blockers.
 
 <!-- THOUGHT_END -->
 
