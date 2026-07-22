@@ -4,7 +4,7 @@
 
 Design is not just what it looks like, but how it works; make the navigation intuitive and responsive.
 
-*Daily Insight:* Plan your weekly milestones, track progress velocity, and address blockers.
+*Daily Insight:* Refactor design patterns to improve scalability and maintainability.
 
 <!-- THOUGHT_END -->
 
