@@ -4,7 +4,7 @@
 
 Design is not just what it looks like, but how it works; make the navigation intuitive and responsive.
 
-*Daily Insight:* Focus on reducing algorithmic complexity and optimizing critical paths.
+*Daily Insight:* Plan your weekly milestones, track progress velocity, and address blockers.
 
 <!-- THOUGHT_END -->
 
