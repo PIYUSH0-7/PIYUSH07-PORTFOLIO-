@@ -4,7 +4,7 @@
 
 Design is not just what it looks like, but how it works; make the navigation intuitive and responsive.
 
-*Daily Insight:* Practice active learning by revising core concepts and teaching peers.
+*Daily Insight:* Focus on reducing algorithmic complexity and optimizing critical paths.
 
 <!-- THOUGHT_END -->
 
