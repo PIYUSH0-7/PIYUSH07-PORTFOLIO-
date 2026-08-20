@@ -1,0 +1,22 @@
+﻿{
+  "name": "Piyush Gangwar | Full Stack & AI Developer Portfolio",
+  "short_name": "Piyush07",
+  "description": "Portfolio of Piyush Gangwar - Full Stack MERN Developer, Python DSA expert, and Agentic AI engineer.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/profile.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
