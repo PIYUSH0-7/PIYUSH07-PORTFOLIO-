@@ -34,7 +34,7 @@ const Hackathons: React.FC<HackathonsProps> = ({ data, labels }) => {
                <div className="flex flex-col sm:flex-row gap-6 relative z-10">
                    <a 
                       href={hack.url || '#'} 
-                      target="_blank" 
+                      target="_self" 
                       rel="noopener noreferrer"
                       className="shrink-0 block hover:rotate-6 transition-transform duration-300 cursor-pointer"
                    >

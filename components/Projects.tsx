@@ -29,7 +29,7 @@ const Projects: React.FC<ProjectsProps> = ({ data, labels }) => {
               {/* Cover Image Area */}
               <a 
                 href={project.website || project.source || '#'} 
-                target="_blank" 
+                target="_self" 
                 rel="noopener noreferrer" 
                 className="h-52 w-full bg-zinc-100 dark:bg-zinc-800 overflow-hidden block cursor-pointer relative"
               >
@@ -62,13 +62,13 @@ const Projects: React.FC<ProjectsProps> = ({ data, labels }) => {
 
                   <div className="flex items-center gap-4 pt-6 border-t border-zinc-100 dark:border-zinc-800/50">
                       {project.source && (
-                          <a href={project.source} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
+                          <a href={project.source} target="_self" rel="noopener noreferrer" className="flex items-center gap-2 text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
                               <Github size={18} />
                               Code
                           </a>
                       )}
                       {project.website && (
-                          <a href={project.website} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
+                          <a href={project.website} target="_self" rel="noopener noreferrer" className="flex items-center gap-2 text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
                               <Globe size={18} />
                               Live Demo
                           </a>

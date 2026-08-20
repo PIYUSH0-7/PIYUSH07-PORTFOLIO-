@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
               <a 
                 key={social.name} 
                 href={social.url} 
-                target="_blank" 
+                target="_self" 
                 rel="noopener noreferrer" 
                 className="hover:text-white transition-colors"
               >

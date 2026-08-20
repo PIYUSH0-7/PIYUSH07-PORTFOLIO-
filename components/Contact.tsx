@@ -33,7 +33,7 @@ const Contact: React.FC<ContactProps> = ({ labels }) => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
             <a 
                 href="https://wa.me/918923845912?text=Hello%20Piyush.%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20connect%20regarding%20opportunities.%20" 
-                target="_blank" 
+                target="_self" 
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto group flex items-center justify-center gap-3 px-8 py-4 bg-green-50 dark:bg-green-900/10 text-green-700 dark:text-green-300 rounded-2xl border border-green-200 dark:border-green-800 hover:bg-green-100 dark:hover:bg-green-900/20 transition-all duration-300 hover:shadow-lg hover:shadow-green-900/10"
             >
@@ -47,8 +47,8 @@ const Contact: React.FC<ContactProps> = ({ labels }) => {
             </a>
 
             <a 
-                href="https://www.linkedin.com/in/piyush070/" 
-                target="_blank" 
+                href="https://www.linkedin.com/in/piyush077/" 
+                target="_self" 
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto group flex items-center justify-center gap-3 px-8 py-4 bg-blue-50 dark:bg-blue-900/10 text-blue-700 dark:text-blue-300 rounded-2xl border border-blue-200 dark:border-blue-800 hover:bg-blue-100 dark:hover:bg-blue-900/20 transition-all duration-300 hover:shadow-lg hover:shadow-blue-900/10"
             >

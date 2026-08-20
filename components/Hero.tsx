@@ -77,7 +77,7 @@ const Hero: React.FC<HeroProps> = ({ data, labels }) => {
                 <div className="absolute inset-0 rounded-full border-2 border-dashed border-zinc-300 dark:border-zinc-700 animate-spin-slow opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
                 
                 {/* Morphing Blob Mask */}
-                <a href={data.url || '#'} target="_blank" rel="noopener noreferrer" className="block w-full h-full">
+                <a href={data.url || '#'} target="_self" rel="noopener noreferrer" className="block w-full h-full">
                   <div className="w-full h-full bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900 animate-morph overflow-hidden relative shadow-2xl ring-1 ring-white/20 dark:ring-zinc-700/50 transform transition-transform duration-500 group-hover:scale-[1.02]">
                       <img 
                           src={data.avatar} 

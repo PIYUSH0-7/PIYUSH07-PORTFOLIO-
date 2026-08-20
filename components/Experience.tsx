@@ -29,7 +29,7 @@ const Experience: React.FC<ExperienceProps> = ({ data, labels }) => {
             <div className="flex flex-col sm:flex-row gap-4 items-start group">
               <a 
                 href={job.url || '#'} 
-                target="_blank" 
+                target="_self" 
                 rel="noopener noreferrer" 
                 className="shrink-0 block p-2 bg-zinc-50 dark:bg-zinc-900 rounded-xl border border-zinc-100 dark:border-zinc-800 shadow-sm group-hover:scale-110 transition-transform duration-300"
                 aria-label={`Visit ${job.company} website`}

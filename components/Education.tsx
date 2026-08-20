@@ -19,7 +19,7 @@ const Education: React.FC<EducationProps> = ({ data, labels }) => {
             <div className="group relative flex flex-col sm:flex-row gap-4 items-start p-4 rounded-2xl hover:bg-zinc-50 dark:hover:bg-white/5 transition-colors border border-transparent hover:border-zinc-100 dark:hover:border-zinc-800">
               <a 
                 href={edu.url || '#'} 
-                target="_blank" 
+                target="_self" 
                 rel="noopener noreferrer"
                 className="shrink-0 pt-1 block group-hover:scale-110 transition-transform duration-300"
               >

@@ -24,7 +24,7 @@ import {
 import { ExperienceItem, ProjectItem, SkillItem, SocialLink, EducationItem, HackathonItem } from './types';
 
 export const SOCIALS: SocialLink[] = [
-  { name: "LinkedIn", url: "https://www.linkedin.com/in/piyush070/", icon: <Linkedin size={18} /> },
+  { name: "LinkedIn", url: "https://www.linkedin.com/in/piyush077/", icon: <Linkedin size={18} /> },
   { name: "WhatsApp", url: "https://wa.me/918923845912?text=Hello%20Piyush.%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20connect%20regarding%20opportunities.%20", icon: <MessageCircle size={18} /> },
 ];
 

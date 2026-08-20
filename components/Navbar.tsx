@@ -105,7 +105,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleTheme, language, togg
 
         <a
           href="https://github.com/PIYUSH0-7"
-          target="_blank"
+          target="_self"
           rel="noopener noreferrer"
           className="p-2.5 text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 hover:bg-zinc-100 dark:hover:bg-zinc-800 rounded-full transition-all active:scale-95"
           aria-label="GitHub"
@@ -114,8 +114,8 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleTheme, language, togg
         </a>
 
         <a
-          href="https://www.linkedin.com/in/piyush070/"
-          target="_blank"
+          href="https://www.linkedin.com/in/piyush077/"
+          target="_self"
           rel="noopener noreferrer"
           className="p-2.5 text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 hover:bg-zinc-100 dark:hover:bg-zinc-800 rounded-full transition-all active:scale-95"
           aria-label="LinkedIn"

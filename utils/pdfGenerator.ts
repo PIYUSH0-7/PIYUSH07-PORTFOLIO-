@@ -118,7 +118,7 @@ export const generateResume = (data: any, socials: any[], skills: any[]) => {
   });
   
   doc.textWithLink(`LinkedIn: /in/piyush070`, col2X, y, { 
-    url: "https://www.linkedin.com/in/piyush070/" 
+    url: "https://www.linkedin.com/in/piyush077/" 
   });
   y += 10;
 
