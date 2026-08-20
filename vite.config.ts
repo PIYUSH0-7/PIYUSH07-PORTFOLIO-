@@ -6,6 +6,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
+    base: '/',
     server: {
       port: 3000,
       host: '0.0.0.0',
@@ -27,5 +28,5 @@ export default defineConfig(({ mode }) => {
     build: {
       chunkSizeWarningLimit: 2000,
     },
-  }; // ✅ Removed extra closing brace here
+  };
 });
