@@ -11,7 +11,7 @@ import Hackathons from '../components/Hackathons';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import { ScrollReveal } from '../components/ScrollReveal';
-import { LightingEffect } from '../components/LightingEffect';
+import { NebulaSmoke } from '../components/NebulaSmoke';
 import { DATA } from '../constants';
 
 type Language = 'en' | 'hn' | 'tm' | 'bj' | 'jp';
@@ -45,8 +45,8 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-50 font-sans selection:bg-purple-100 dark:selection:bg-purple-900 selection:text-purple-900 dark:selection:text-purple-50 pb-24 transition-colors duration-300 overflow-x-hidden relative">
-      {/* Interactive Fluid Lighting Effect (Scroll & Drag Responsive, zero obstruction) */}
-      <LightingEffect isDarkMode={isDarkMode} />
+      {/* Onlook-style WebGL Interactive Nebula Smoke Fluid Shader (Scroll & Mouse Swirl) */}
+      <NebulaSmoke isDarkMode={isDarkMode} />
 
       {/* Cinematic Noise Overlay */}
       <div
