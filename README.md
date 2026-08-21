@@ -4,7 +4,7 @@
 
 Focus on showing off real-world user metrics and direct contributions in your portfolio site.
 
-*Daily Insight:* Plan your weekly milestones, track progress velocity, and address blockers.
+*Daily Insight:* Ensure clear, self-documenting code style with meaningful variable naming.
 
 <!-- THOUGHT_END -->
 
