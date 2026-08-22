@@ -2,9 +2,9 @@
 
 ## 💡 Technical Thought of the Day
 
-Focus on showing off real-world user metrics and direct contributions in your portfolio site.
+Design is not just what it looks like, but how it works; make the navigation intuitive and responsive.
 
-*Daily Insight:* Ensure clear, self-documenting code style with meaningful variable naming.
+*Daily Insight:* Optimize memory usage, garbage collection overhead, and resource disposal.
 
 <!-- THOUGHT_END -->
 
